@@ -1,0 +1,117 @@
+/* Reset básico para uniformizar a estilização */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo fonte global e cores */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Estilos gerais */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Cabeçalho / Navbar */
+  .navbar {
+    background-color: #3f51b5;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ff9800;
+  }
+  
+  /* Estilos principais para a página */
+  .container {
+    width: 90%;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #3f51b5;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Botão estilizado */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Estilos para o rodapé */
+  .footer {
+    background-color: #3f51b5;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer a {
+    color: #ff9800;
+  }
+  
